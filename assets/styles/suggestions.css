@@ -45,19 +45,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
+    position: absolute;
+    top: 104px;
 }
 
 .previous-food {
     background-image: url("../images/main/slider-back.png");
-    position: absolute;
-    top: 104px;
     left: 30px;
 }
 
 .next-food {
     background-image: url("../images/main/slider-forward.png");
-    position: absolute;
-    top: 104px;
     right: 30px;
 }
 

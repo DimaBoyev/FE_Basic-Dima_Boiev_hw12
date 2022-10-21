@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="keywords" content="practice, project, css, html, education">
-  <link rel="stylesheet" href="../../assets/styles/style.css">
+  <link rel="stylesheet" href="../assets/styles/style.css">
   <title>Breakably Ecology: Sparrow</title>
 </head>
 <body>
   <header class="header">
     <div class="wrapper">
       <div class="header-top">
-        <a href="../../index.html">
-          <img src="../images/header/company-logo.png" alt="logo picture of company" width="244" height="45">
+        <a href="../index.html">
+          <img src="../assets/images/header/company-logo.png" alt="logo picture of company" width="244" height="45">
         </a>
         <div class="info">
           <a href="tel:89209994350" class="phone">8 920 999 43 50</a>
           <div class="account-info">
             <div class="cart-header">
               <a href="/" class="cart">
-                <img src="../../assets/images/header/cart-header.png" alt="icon of cart" width="30" height="30">
+                <img src="../assets/images/header/cart-header.png" alt="icon of cart" width="30" height="30">
               </a>
               <span class="counter">2</span>
             </div>
             <div class="account-header">
               <a href="/" class="account">
-                <img src="../../assets/images/header/account-header.png" alt="icon of private cabinet" width="30" height="30">
+                <img src="../assets/images/header/account-header.png" alt="icon of private cabinet" width="30" height="30">
               </a>
               <div class="account-actions">
                 <a href="/" class="account-button sign-in">
@@ -84,7 +84,7 @@
     </section>
     <section class="back">
       <div class="wrapper">
-        <a href="../../index.html" class="back-link">
+        <a href="../index.html" class="back-link">
           Назад
         </a>
       </div>
@@ -92,7 +92,7 @@
     <section class="bird-about">
       <div class="wrapper">
         <div class="about">
-          <img src="../images/main/sparrow-image.png" alt="picture of a bird Sparrow" class="bird-image" height="558" width="558">
+          <img src="../assets/images/main/sparrow-image.png" alt="picture of a bird Sparrow" class="bird-image" height="558" width="558">
           <div class="bird-description">
             <h1 class="bird-name">
               Домовый воробей
@@ -118,19 +118,19 @@
             <div class="grains">
               <div class="food">
                 <a href="/" class="food-link">
-                  <img src="../images/food/factory-millet.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
+                  <img src="../assets/images/food/factory-millet.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
                   Пшено
                 </a>
                 <a href="/" class="food-link">
-                  <img src="../images/food/millet.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
+                  <img src="../assets/images/food/millet.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
                   Просо
                 </a>
                 <a href="/" class="food-link">
-                  <img src="../images/food/flax.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
+                  <img src="../assets/images/food/flax.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
                   Лен
                 </a>
                 <a href="/" class="food-link">
-                  <img src="../images/food/wheat.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
+                  <img src="../assets/images/food/wheat.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
                   Пшеница
                 </a>
               </div>
@@ -145,19 +145,19 @@
               <button class="slide-button previous-food"></button>
               <div class="food">
                 <a href="/" class="food-link">
-                  <img src="../images/food/Melovo.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
+                  <img src="../assets/images/food/melovo.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
                   Cliffi (Италия)
                 </a>
                 <a href="/" class="food-link">
-                  <img src="../images/food/Frutti.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
+                  <img src="../assets/images/food/frutti.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
                   Benelux корма
                 </a>
                 <a href="/" class="food-link">
-                  <img src="../images/food/Finches.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
+                  <img src="../assets/images/food/finches.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
                   Cliffi (Италия)
                 </a>
                 <a href="/" class="food-link">
-                  <img src="../images/food/Cliffi.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
+                  <img src="../assets/images/food/cliffi.png" alt="picture of suitable to feed grain" class="food-image" height="100" width="100">
                   Benelux корма
                 </a>
               </div>
@@ -179,7 +179,7 @@
         <div class="cards-list">
           <article class="card">
             <div class="card-image-wrapper">
-              <img src="../../assets/images/card/food-product.png" alt="picture of the product" class="product-image" width="275" height="227">
+              <img src="../assets/images/card/food-product.png" alt="picture of the product" class="product-image" width="275" height="227">
             </div>
             <h2 class="card-title">
               Корм для птиц RIO Линька
@@ -190,20 +190,24 @@
             <p class="card-price">
               1000 грн.
             </p>
-            <div class="card-packaging">
-              <button class="card-package card-package-active">
+            <form class="card-packaging">
+              <input type="radio" name="card-packaging" value="200" id="card-1-package1" checked>
+              <label class="card-package" for="card-1-package1">
                 200 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="400" id="card-1-package2">
+              <label class="card-package" for="card-1-package2">
                 400 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="800" id="card-1-package3">
+              <label class="card-package" for="card-1-package3">
                 800 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="1000" id="card-1-package4">
+              <label class="card-package" for="card-1-package4">
                 1 кг
-              </button>
-            </div>
+              </label>
+            </form>
             <div class="card-actions">
               <a href="/" class="card-about">
                 Подробнее
@@ -213,7 +217,7 @@
           </article>
           <article class="card">
             <div class="card-image-wrapper">
-              <img src="../../assets/images/card/food-product.png" alt="picture of the product" class="product-image" width="275" height="227">
+              <img src="../assets/images/card/food-product.png" alt="picture of the product" class="product-image" width="275" height="227">
             </div>
             <h2 class="card-title">
               Корм для птиц RIO Линька
@@ -224,20 +228,24 @@
             <p class="card-price">
               1000 грн.
             </p>
-            <div class="card-packaging">
-              <button class="card-package card-package-active">
+            <form class="card-packaging">
+              <input type="radio" name="card-packaging" value="200" id="card-2-package1" checked>
+              <label class="card-package" for="card-2-package1">
                 200 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="400" id="card-2-package2">
+              <label class="card-package" for="card-2-package2">
                 400 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="800" id="card-2-package3">
+              <label class="card-package" for="card-2-package3">
                 800 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="1000" id="card-2-package4">
+              <label class="card-package" for="card-2-package4">
                 1 кг
-              </button>
-            </div>
+              </label>
+            </form>
             <div class="card-actions">
               <a href="/" class="card-about">
                 Подробнее
@@ -247,7 +255,7 @@
           </article>
           <article class="card">
             <div class="card-image-wrapper">
-              <img src="../../assets/images/card/food-product.png" alt="picture of the product" class="product-image" width="275" height="227">
+              <img src="../assets/images/card/food-product.png" alt="picture of the product" class="product-image" width="275" height="227">
             </div>
             <h2 class="card-title">
               Корм для птиц RIO Линька
@@ -258,20 +266,24 @@
             <p class="card-price">
               1000 грн.
             </p>
-            <div class="card-packaging">
-              <button class="card-package card-package-active">
+            <form class="card-packaging">
+              <input type="radio" name="card-packaging" value="200" id="card-3-package1" checked>
+              <label class="card-package" for="card-3-package1">
                 200 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="400" id="card-3-package2">
+              <label class="card-package" for="card-3-package2">
                 400 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="800" id="card-3-package3">
+              <label class="card-package" for="card-3-package3">
                 800 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="1000" id="card-3-package4">
+              <label class="card-package" for="card-3-package4">
                 1 кг
-              </button>
-            </div>
+              </label>
+            </form>
             <div class="card-actions">
               <a href="/" class="card-about">
                 Подробнее
@@ -281,7 +293,7 @@
           </article>
           <article class="card">
             <div class="card-image-wrapper">
-              <img src="../../assets/images/card/food-product.png" alt="picture of the product" class="product-image" width="275" height="227">
+              <img src="../assets/images/card/food-product.png" alt="picture of the product" class="product-image" width="275" height="227">
             </div>
             <h2 class="card-title">
               Корм для птиц RIO Линька
@@ -293,18 +305,24 @@
               1000 грн.
             </p>
             <div class="card-packaging">
-              <button class="card-package card-package-active">
-                200 г
-              </button>
-              <button class="card-package">
-                400 г
-              </button>
-              <button class="card-package">
-                800 г
-              </button>
-              <button class="card-package">
-                1 кг
-              </button>
+              <form class="card-packaging">
+                <input type="radio" name="card-packaging" value="200" id="card-4-package1" checked>
+                <label class="card-package" for="card-4-package1">
+                  200 г
+                </label>
+                <input type="radio" name="card-packaging" value="400" id="card-4-package2">
+                <label class="card-package" for="card-4-package2">
+                  400 г
+                </label>
+                <input type="radio" name="card-packaging" value="800" id="card-4-package3">
+                <label class="card-package" for="card-4-package3">
+                  800 г
+                </label>
+                <input type="radio" name="card-packaging" value="1000" id="card-4-package4">
+                <label class="card-package" for="card-4-package4">
+                  1 кг
+                </label>
+              </form>
             </div>
             <div class="card-actions">
               <a href="/" class="card-about">
@@ -328,7 +346,7 @@
         <div class="cards-list">
           <article class="card">
             <div class="card-image-wrapper">
-              <img src="../../assets/images/card/food-product1.png" alt="picture of the product" class="product-image" width="275" height="227">
+              <img src="../assets/images/card/food-product1.png" alt="picture of the product" class="product-image" width="275" height="227">
             </div>
             <h2 class="card-title">
               Корм для птиц RIO Линька
@@ -339,20 +357,24 @@
             <p class="card-price">
               1000 грн.
             </p>
-            <div class="card-packaging">
-              <button class="card-package card-package-active">
+            <form class="card-packaging">
+              <input type="radio" name="card-packaging" value="200" id="card-5-package1" checked>
+              <label class="card-package" for="card-5-package1">
                 200 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="400" id="card-5-package2">
+              <label class="card-package" for="card-5-package2">
                 400 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="800" id="card-5-package3">
+              <label class="card-package" for="card-5-package3">
                 800 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="1000" id="card-5-package4">
+              <label class="card-package" for="card-5-package4">
                 1 кг
-              </button>
-            </div>
+              </label>
+            </form>
             <div class="card-actions">
               <a href="/" class="card-about">
                 Подробнее
@@ -362,7 +384,7 @@
           </article>
           <article class="card">
             <div class="card-image-wrapper">
-              <img src="../../assets/images/card/food-product1.png" alt="picture of the product" class="product-image" width="275" height="227">
+              <img src="../assets/images/card/food-product1.png" alt="picture of the product" class="product-image" width="275" height="227">
             </div>
             <h2 class="card-title">
               Корм для птиц RIO Линька
@@ -373,20 +395,24 @@
             <p class="card-price">
               1000 грн.
             </p>
-            <div class="card-packaging">
-              <button class="card-package card-package-active">
+            <form class="card-packaging">
+              <input type="radio" name="card-packaging" value="200" id="card-6-package1" checked>
+              <label class="card-package" for="card-6-package1">
                 200 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="400" id="card-6-package2">
+              <label class="card-package" for="card-6-package2">
                 400 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="800" id="card-6-package3">
+              <label class="card-package" for="card-6-package3">
                 800 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="1000" id="card-6-package4">
+              <label class="card-package" for="card-6-package4">
                 1 кг
-              </button>
-            </div>
+              </label>
+            </form>
             <div class="card-actions">
               <a href="/" class="card-about">
                 Подробнее
@@ -396,7 +422,7 @@
           </article>
           <article class="card">
             <div class="card-image-wrapper">
-              <img src="../../assets/images/card/food-product1.png" alt="picture of the product" class="product-image" width="275" height="227">
+              <img src="../assets/images/card/food-product1.png" alt="picture of the product" class="product-image" width="275" height="227">
             </div>
             <h2 class="card-title">
               Корм для птиц RIO Линька
@@ -407,20 +433,24 @@
             <p class="card-price">
               1000 грн.
             </p>
-            <div class="card-packaging">
-              <button class="card-package card-package-active">
+            <form class="card-packaging">
+              <input type="radio" name="card-packaging" value="200" id="card-7-package1" checked>
+              <label class="card-package" for="card-7-package1">
                 200 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="400" id="card-7-package2">
+              <label class="card-package" for="card-7-package2">
                 400 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="800" id="card-7-package3">
+              <label class="card-package" for="card-7-package3">
                 800 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="1000" id="card-7-package4">
+              <label class="card-package" for="card-7-package4">
                 1 кг
-              </button>
-            </div>
+              </label>
+            </form>
             <div class="card-actions">
               <a href="/" class="card-about">
                 Подробнее
@@ -433,7 +463,7 @@
               Скидка
             </span>
             <div class="card-image-wrapper">
-              <img src="../../assets/images/card/food-product1.png" alt="picture of the product" class="product-image" width="275" height="227">
+              <img src="../assets/images/card/food-product1.png" alt="picture of the product" class="product-image" width="275" height="227">
             </div>
             <h2 class="card-title">
               Корм для птиц RIO Линька
@@ -444,20 +474,24 @@
             <p class="card-price">
               1000 грн.
             </p>
-            <div class="card-packaging">
-              <button class="card-package card-package-active">
+            <form class="card-packaging">
+              <input type="radio" name="card-packaging" value="200" id="card-8-package1" checked>
+              <label class="card-package" for="card-8-package1">
                 200 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="400" id="card-8-package2">
+              <label class="card-package" for="card-8-package2">
                 400 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="800" id="card-8-package3">
+              <label class="card-package" for="card-8-package3">
                 800 г
-              </button>
-              <button class="card-package">
+              </label>
+              <input type="radio" name="card-packaging" value="1000" id="card-8-package4">
+              <label class="card-package" for="card-8-package4">
                 1 кг
-              </button>
-            </div>
+              </label>
+            </form>
             <div class="card-actions">
               <a href="/" class="card-about">
                 Подробнее
@@ -482,10 +516,10 @@
         </div>
         <div class="social-media">
           <a href="/" class="sm-link">
-            <img src="../../assets/images/footer/vk.png" alt="icon of vk social media" height="25" width="25">
+            <img src="../assets/images/footer/vk.png" alt="icon of vk social media" height="25" width="25">
           </a>
           <a href="/" class="sm-link">
-            <img src="../../assets/images/footer/instagram.png" alt="icon of instagram social media" height="25" width="25">
+            <img src="../assets/images/footer/instagram.png" alt="icon of instagram social media" height="25" width="25">
           </a>
         </div>
         <div class="contact">

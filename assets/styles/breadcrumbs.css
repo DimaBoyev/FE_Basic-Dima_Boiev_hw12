@@ -16,6 +16,10 @@
     position: relative;
 }
 
+.breadcrumbs-item:last-child {
+    margin-right: 0;
+}
+
 .breadcrumbs-item:not(:last-child)::after {
     content: "";
     width: 6px;
