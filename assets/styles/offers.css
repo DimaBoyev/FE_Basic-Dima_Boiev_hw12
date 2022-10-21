@@ -1,0 +1,13 @@
+.offers {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.offer {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}

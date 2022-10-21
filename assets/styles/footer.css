@@ -1,0 +1,63 @@
+.footer {
+    padding-top: 102px;
+    padding-bottom: 132px;
+    background-color: #333333;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.term-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-right: 47px;
+}
+
+.term-link:last-child {
+    margin-right: 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm-link:not(:last-child) {
+    margin-right: 20px;
+}
+
+.phone-footer {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 35px;
+    position: relative;
+}
+
+.phone-footer::before {
+    content: "";
+    background-image: url("../images/footer/phone-footer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -10px;
+}

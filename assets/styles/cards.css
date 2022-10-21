@@ -1,0 +1,149 @@
+.cards {
+    margin-bottom: 50px;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 46px;
+}
+
+.card {
+    width: 315px;
+    border: 1px solid #F2F2F2;
+    box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px 20px 30px 20px;
+    position: relative;
+}
+
+.card-image-wrapper {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.product-image {
+    display: block;
+    width: 100%;
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #333333;
+}
+
+.card-sub-title {
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #828282;
+}
+
+.card-price {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.card-packaging {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.card-package {
+    width: 68px;
+    height: 29px;
+    background-color: transparent;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+    border: none;
+}
+
+.card-package-active {
+    background-color: #FFFFFF;
+    border: 1px solid #3ECF5E;
+    border-radius: 5px;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-about {
+    padding: 12px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #3FCF5E;
+    border: 1px solid rgba(5, 175, 52, 0.53);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.card-add-to-cart {
+    width: 45px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    background-image: url("../images/card/buy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-new-label {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 9px 16px;
+}
+
+.suggestion-offer {
+    margin-bottom: 100px;
+}
+
+.suggestion-offer:last-child {
+    margin-bottom: 0;
+}
+
+.card-discount-label {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    background-color: #FFFFFF;
+    border: 1px solid #3FCF5E;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 9px 16px;
+}
+
+

@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bird-image {
+    margin-right: 40px;
+}
+
+.bird-name {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.bird-description {
+    width: 610px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #4F4F4F;
+}
+
+.bird-description:last-child {
+    margin-bottom: 0;
+}
