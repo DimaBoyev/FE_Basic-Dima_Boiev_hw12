@@ -1,0 +1,28 @@
+.back {
+  margin-bottom: 40px;
+}
+
+.back-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+  padding-left: 22px;
+  position: relative;
+}
+
+.back-link:before {
+  display: inline-block;
+  content: "";
+  background-image: url("../images/main/arrow-back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -9px;
+}
