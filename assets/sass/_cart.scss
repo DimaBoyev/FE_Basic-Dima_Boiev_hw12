@@ -1,0 +1,234 @@
+$cartSubTitleFontWeight: 500;
+$cartSubTitleFontSize: 18px;
+$cartSubTitleFontColor: #BDBDBD;
+$setAmountButtonHeight: 32px;
+$setAmountButtonWidth: 32px;
+$url: "../images/cart/";
+$primaryBackgroundColor: #3FCF5E;
+
+@mixin cartSubTitleFontStyles($fontWeight, $fontSize, $fontColor) {
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  color: $fontColor;
+}
+
+@mixin cartPageHeadingMargins($marginTop, $marginBottom) {
+  margin-top: $marginTop;
+  margin-bottom: $marginBottom;
+}
+
+@mixin removeDefaultMarginParagraph() {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@mixin setAmountButtonSize($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin setBackgroundAmountButton($fileName) {
+  background-image: url("#{$url}#{$fileName}");
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.cart-title {
+  @include cartSubTitleFontStyles(
+    $cartSubTitleFontWeight,
+    $cartSubTitleFontSize,
+    $cartSubTitleFontColor
+  );
+  @include cartPageHeadingMargins(0, 10px)
+}
+
+.cart-content {
+  width: 1320px;
+  background-color: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  border-radius: 10px;
+}
+
+.product-to-buy {
+  padding: 25px;
+  border-bottom: 1px solid #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-details {
+  display: flex;
+}
+
+.cart-product-image {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 15px;
+
+  img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+.cart-item-title {
+  @include cartPageHeadingMargins(0, 9px);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+
+.cart-item-id {
+  @include cartPageHeadingMargins(0, 52px);
+  @include cartSubTitleFontStyles(
+    $cartSubTitleFontWeight,
+    $cartSubTitleFontSize,
+    $cartSubTitleFontColor
+  );
+  line-height: 21px;
+}
+
+.cart-item-price {
+  @include removeDefaultMarginParagraph();
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #828282;
+
+  span {
+    @include removeDefaultMarginParagraph();
+    font-weight: 600;
+    line-height: 29px;
+    color: #333333;
+  }
+}
+
+.product-quantity {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-title {
+  @include cartSubTitleFontStyles(
+    $cartSubTitleFontWeight,
+    $cartSubTitleFontSize,
+    $cartSubTitleFontColor
+  );
+  @include cartPageHeadingMargins(0, 10px)
+}
+
+.set-amount {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin-bottom: 30px;
+}
+
+.amount-button {
+  @include setAmountButtonSize($setAmountButtonHeight, $setAmountButtonWidth);
+
+  &.decrease {
+    @include setBackgroundAmountButton("decrease-amount.png");
+  }
+
+  &.increase {
+    @include setBackgroundAmountButton("increase-amount.png");
+  }
+}
+
+.amount {
+  @include removeDefaultMarginParagraph();
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F4F4F;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.donation {
+  background-color: $primaryBackgroundColor;
+  padding: 40px 0 50px 171px;
+}
+
+.donation-title {
+  @include cartPageHeadingMargins(0, 33px);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.donation-amount {
+  width: 234px;
+  height: 51px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 20px;
+
+  &::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+  }
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.donate {
+  height: 51px;
+  width: 201px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  text-align: center;
+  border: none;
+}
+
+.payment {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-right: 25px;
+}
+
+.pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  height: 49px;
+  background-color: $primaryBackgroundColor;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+
+
+

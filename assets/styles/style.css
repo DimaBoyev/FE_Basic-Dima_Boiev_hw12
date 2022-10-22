@@ -345,6 +345,10 @@ template {
   margin-bottom: 40px;
 }
 
+.back-cart-page {
+  margin-bottom: 30px;
+}
+
 .back-link {
   font-weight: 500;
   font-size: 20px;
@@ -920,6 +924,11 @@ input:checked + .card-package {
   padding-bottom: 219px;
 }
 
+.main-cart {
+  padding-top: 50px;
+  padding-bottom: 169px;
+}
+
 .offers {
   display: flex;
   margin-bottom: 25px;
@@ -1086,6 +1095,205 @@ body {
   margin-bottom: 10px;
   display: block;
   width: 100%;
+}
+
+.cart-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #BDBDBD;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.cart-content {
+  width: 1320px;
+  background-color: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  border-radius: 10px;
+}
+
+.product-to-buy {
+  padding: 25px;
+  border-bottom: 1px solid #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-details {
+  display: flex;
+}
+
+.cart-product-image {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+.cart-product-image img {
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.cart-item-title {
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+
+.cart-item-id {
+  margin-top: 0;
+  margin-bottom: 52px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #BDBDBD;
+  line-height: 21px;
+}
+
+.cart-item-price {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #828282;
+}
+.cart-item-price span {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: 29px;
+  color: #333333;
+}
+
+.product-quantity {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #BDBDBD;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.set-amount {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin-bottom: 30px;
+}
+
+.amount-button {
+  height: 32px;
+  width: 32px;
+}
+.amount-button.decrease {
+  background-image: url("../images/cart/decrease-amount.png");
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+.amount-button.increase {
+  background-image: url("../images/cart/increase-amount.png");
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.amount {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F4F4F;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.donation {
+  background-color: #3FCF5E;
+  padding: 40px 0 50px 171px;
+}
+
+.donation-title {
+  margin-top: 0;
+  margin-bottom: 33px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.donation-amount {
+  width: 234px;
+  height: 51px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 20px;
+}
+.donation-amount::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4F4F4F;
+}
+.donation-amount::-webkit-outer-spin-button, .donation-amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.donate {
+  height: 51px;
+  width: 201px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  text-align: center;
+  border: none;
+}
+
+.payment {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-right: 25px;
+}
+
+.pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  height: 49px;
+  background-color: #3FCF5E;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
