@@ -1103,7 +1103,6 @@ body {
 }
 
 .cart-content {
-  width: 1320px;
   background-color: #FFFFFF;
   border: 1px solid #F2F2F2;
   border-radius: 10px;
@@ -1224,7 +1223,7 @@ body {
 
 .donation {
   background-color: #3FCF5E;
-  padding: 40px 0 50px 171px;
+  padding: 40px 171px 50px;
 }
 
 .donation-title {
